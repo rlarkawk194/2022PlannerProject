@@ -10,5 +10,7 @@ public class Main3PageList extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3_page_list);
+
+
     }
 }
