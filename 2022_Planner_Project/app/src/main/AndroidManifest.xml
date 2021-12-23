@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PlannerProject">
         <activity
+            android:name=".Main2StudyCheck"
+            android:exported="true" />
+        <activity
             android:name=".Main3PageList"
             android:exported="true" />
         <activity
