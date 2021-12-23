@@ -8,19 +8,33 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/btn_goPageList"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/main2"
         android:backgroundTint="@color/main2"
+        android:padding="5dp"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_goPlanner"
+        app:layout_constraintVertical_bias="0.248"
+        tools:text="웹페이지 모음으로 가기" />
+
+    <Button
+        android:id="@+id/btn_goPlanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:background="@color/main2"
+        android:backgroundTint="@color/main2"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499"
-        android:padding="5dp"
-        android:id="@+id/btn_goPageList"
-        tools:text="웹페이지 모음으로 가기" />
+        tools:text="플래너로 가기" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
