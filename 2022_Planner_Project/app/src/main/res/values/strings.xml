@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">PlannerProject</string>
+
+
+    //웹뷰어를 위한 주소들
+    <string name="smOfficial">https://www.sookmyung.ac.kr/</string>
+    <string name="snowboard">https://snowboard.sookmyung.ac.kr/</string>
+    <string name="snowe"> http://snowe.sookmyung.ac.kr/</string>
+    <string name="wiseSm">https://wise.sookmyung.ac.kr/</string>
+    <string name="snoway">https://snoway.sookmyung.ac.kr/</string>
+
 </resources>
