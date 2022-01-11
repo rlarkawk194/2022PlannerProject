@@ -11,30 +11,45 @@
         android:id="@+id/btn_goPageList"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/main2"
-        android:backgroundTint="@color/main2"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
         android:padding="5dp"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_goPlanner"
-        app:layout_constraintVertical_bias="0.248"
+        app:layout_constraintTop_toBottomOf="@+id/btn_goStudyCheck"
+        app:layout_constraintVertical_bias="0.101"
         tools:text="웹페이지 모음으로 가기" />
 
     <Button
         android:id="@+id/btn_goPlanner"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="240dp"
-        android:background="@color/main2"
-        android:backgroundTint="@color/main2"
+        android:layout_marginTop="220dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
         android:padding="5dp"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="플래너로 가기" />
+
+    <Button
+        android:id="@+id/btn_goStudyCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_goPlanner"
+        tools:text="공부 확인 탭으로 가기" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
