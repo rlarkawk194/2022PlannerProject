@@ -12,15 +12,5 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
-
-        <style name="SpinnerDivideStyle" parent="android:style/Widget.ListView.DropDown">
-            <item name="android:divider">#666666</item> <!-- divider 색 -->
-            <item name="android:dividerHeight">2dp</item> <!-- divider 높이 -->
-        </style>
-
-        <style name="SpinnerTheme" parent="AppTheme">
-            <item name="android:dropDownListViewStyle">@style/SpinnerDivideStyle</item>
-        </style>
-
     </style>
 </resources>
